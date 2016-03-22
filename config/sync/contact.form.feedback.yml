@@ -1,0 +1,12 @@
+uuid: a9e7966f-b9f2-4ce2-9f00-c9cc794cd9a2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - bander2.imda@gmail.com
+reply: ''
+weight: 0
