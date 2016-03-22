@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+rootdir="${scriptdir}/.."
+
+rm -rf ${rootdir}/web/sites/default/files
+rm -rf ${rootdir}/web/sites/default/settings.php
+rm -rf ${rootdir}/web/sites/default/services.yml
+
+chmod -R 777 ${rootdir}/web/sites/default
